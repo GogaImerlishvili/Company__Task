@@ -15,11 +15,12 @@ body{
     line-height: 1;
     font-weight: 400;
     overflow-x: hidden;
+    max-width: 1440px;
 }
+
 
 .top-header{
     background-color: #213786;
-    max-width: 1440px;
     width: 100%;
     height: 39px;
 left: 0px;
@@ -44,3 +45,87 @@ border-radius: 0px;
     font-weight: 800;
     color: #FFFFFF;
 }
+
+/* Header of menu */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5FDFF 80%;
+    height: 67px;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0px #0000000F;
+
+}
+
+.logo{
+    color: #213786;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15%;
+    position: relative;
+    left: 55%;
+}
+
+.star{
+    position: absolute;
+    width: 10.28px;
+    height: 10.18px;
+    left: 96.41%;
+    bottom: 56.62%;
+}
+
+.main-nav-list{
+display: flex;
+list-style: none;
+align-items: center;
+gap: 4.8rem;
+margin-left: -55%;
+margin-top: 1.5%;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{
+    font-family: Mont;
+    display: inline-block;
+    text-decoration: none;
+    color: #213786;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.1px;
+    transition: all 0.3s;
+}
+
+.nav-cta:link,
+.nav-cta:visited{
+    padding: 1.2rem 2.4rem;
+    border-radius: 60px;
+    width: 165px;
+    height: 42px;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    background-color:  #197AFF;
+    margin-left: 75%;
+}
+
+.button-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav{
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #213786;
+}
+
+.icon-mobile-nav[name="close-outline"]{
+    display: none;
+}
+
+/*  End of the header menu */
