@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" /> 
+    <link rel="stylesheet" href="queries.css" />
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>MagicMassage</title>
@@ -26,20 +27,18 @@
             <li><a class="main-nav-link" href="#">FAQ</a></li>
             <li><a class="main-nav-link nav-cta" href="#cta">ORDER NOW</a></li>
         </ul>
-
-        <button class="button-mobile-nav">
-            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-        </button>
     </nav>
   </header>
 <section class="section-hero">
     <div class="hero">
         <div class="hero-text-box">
             <h1 class="heading-primary">All-in-one massager that works like <span class="heading-span">magic!<img class="stroke" src="./img/Vector 4 (Stroke).png" alt="stroke" /></span></h1>
-            <p class="heading-description">
-                MagicMassage™ provides relief from head tensions, muscle aches, sleep<br/> irregularities and more - suitable for adults, kids, and pets!
+            <div class="heading-description">
+            <p>
+                MagicMassage™ provides relief from head tensions, muscle aches, sleep <br/> irregularities and more - suitable for adults, kids, and pets!
             </p>
+            <span> MagicMassage™ provides relief from head tensions,<br/> muscle aches, sleep irregularities and more!</span>
+        </div>
             <div class="machine">
                 <img class="img-machine" src="./img/image 212 (1).png" alt="machine" />
             </div>
@@ -50,7 +49,7 @@
             <div class="feature">
                 <span class="lightning">
         
-                <img class="feature-icon"  src="./img/Vector (5).png" alt="happy-boy" />
+                <img class="feature-icon"  src="./img/Group 4075.png" alt="happy-boy" />
                 <h1 class="feature-title">Head Massage</h1>
                 <ul  class="feature-text">
                     <li>Reduce stress & anxiety</li>
@@ -61,7 +60,7 @@
 
             <div class="feature">
                 <span class="lightning">
-                <img class="feature-icon" src="./img/Vector (7).png" alt="happy-boy" />
+                <img class="feature-icon" src="./img/Group 4080 (1).png" alt="happy-boy" />
                 <h1 class="feature-title">Full-Body Massage</h1>
                 <ul class="feature-text">
                     <li>Perfect muscle recovery</li>
@@ -71,7 +70,7 @@
             </div>
             <div class="feature">
                 <span class="lightning">
-                <img  class="feature-icon" src="./img/image 112 (Traced).png" alt="happy-boy" />
+                <img  class="feature-icon" src="./img/Group 4287.png" alt="happy-boy" />
                 <h1 class="feature-title">Kid Massage</h1>
                 <ul  class="feature-text">
                     <li>Promote growth</li>
@@ -81,7 +80,7 @@
             </div>
             <div class="feature">
                 <span class="lightning">
-                <img class="feature-icon"  src="./img/image 113 (Traced).png" alt="happy-boy" />
+                <img class="feature-icon"  src="./img/Group 4288.png" alt="happy-boy" />
                 <h1 class="feature-title">Pet Massage</h1>
                 <ul  class="feature-text">
                     <li>Boosted immunity</li>
@@ -102,7 +101,6 @@
     </div>
 
     <div class="buyer">
-        
         <img class="profile-pic" src="/img/image 19.png" alt="profile" />
         <div class="quote">
         <p>“It feels amazing on my head and it soothes muscle tension. “</p>
@@ -132,22 +130,38 @@
             <ul class="offers">
                 <li class="offer">
                     <span class="span-icon">
-                    <img class="offer-icon" src="./img/image 114 (Traced) (1).png" alt="tracing" />
+                    <img class="offer-icon" src="./img/Group 4310.png" alt="tracing" />
                 </span>
                     <h2>FREE 2-DAY SHIPPING IN THE UNITED STATES!</h2>
                     </li>
                     <li class="offer">
                         <span class="span-icon">
-                        <img class="offer-icon" src="./img/image 96 (Traced) (2).png" alt="tracing" />
+                        <img class="offer-icon-star" src="./img/Group 4226.png" alt="tracing" />
                     </span>
-                        <h2>FREE 2-DAY SHIPPING IN THE UNITED STATES!</h2>
+                        <h2>30 DAY 100% MONEY BACK GUARANTEE</h2>
                         </li>
                         <li  class="offer">
                             <span class="span-icon">
-                            <img class="offer-icon" src="./img/Vector 236.png" alt="tracing" />
+                            <img class="offer-icons-star" src="./img/Group 4227.png" alt="tracing" />
                         </span>
-                            <h2>FREE 2-DAY SHIPPING IN THE UNITED STATES!</h2>
+                            <h2>RAVE REVIEWS FROM OUR CUSTOMERS</h2>
                             </li>
+            </ul>
+
+
+            <ul class="offers-mobile">
+                <li class="offer-mobile">
+                    <span class="span-icon-mobile">
+                        <img class="offer-icon-star" src="./img/Group 4324.png" alt="tracing" />
+                    </span>
+                        <h2>FREE 2-DAY<br/>USA SHIPPING</h2>
+                </li>
+                <li class="offer-mobile">
+                    <span class="span-icon-mobile">
+                        <img class="offer-icon-star" src="./img/Group 4226.png" alt="tracing" />
+                    </span>
+                        <h2>100% MONEY-BACK<br/>GUARANTEE</h2>
+                </li>
             </ul>
         </nav>
     </div>
@@ -162,8 +176,10 @@
         <!-- start -->
         
         <div class="grid grid--3-cols">
+
             <div class="offer-to-buy">
-                <img src="./img/image 210.png" alt="machine" class="machine-img"/>
+                <div class="offer-to-buy1">
+                <img src="./img/image 210.png" alt="machine" class="machine1-img"/>
                 <div class="offer-content">
                         <h2 class="offer-title">Buy MagicMassage™</h2>
                         <div class="offer-offer">
@@ -194,12 +210,14 @@
                     </div>
                 </div>
             </div>
+            </div>
 
 
             <div class="offer-to-buy">
-                <img src="./img/image 210.png" alt="machine" class="machine-img"/>
+                <div class="offer-to-buy2">
+                <img src="./img/image 224.png" alt="machine" class="machine2-img"/>
                 <div class="offer-content">
-                        <h2 class="offer-title">Buy MagicMassage™</h2>
+                        <h2 class="offer-title">Buy 2 +  <span class="offer2-title"> Get 1 Free</span></h2>
                         <div class="offer-offer">
                         <h3 class="offer-price">$69.95</h3>
                         <p class="free-shipping">+ Free Shipping</p>
@@ -228,8 +246,11 @@
                     </div>
                 </div>
             </div>
+            </div>
+
+
             <div class="offer-to-buy">
-                <img src="./img/image 210.png" alt="machine" class="machine-img"/>
+                <img src="./img/image 224.png" alt="machine" class="machine-img"/>
                 <div class="offer-content">
                         <h2 class="offer-title">Buy MagicMassage™</h2>
                         <div class="offer-offer">
@@ -268,5 +289,182 @@
     </div>
 
 </section>
+
+<section class="section-3">
+    <div class="section3-title-div">
+        <h1 class="section3-title">Hear what our customers <span class="blue-color">are saying
+            <img class="blue-line" src="./img/Vector 198 (Stroke) (1).png" alt="" />
+        </span></h1>
+       
+
+    </div>
+    <div class="section3-container">
+    
+        <div class="section3-stars">
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <span class="total-reviews">131 TOTAL REVIEWS</span>
+        </div>
+   
+        <div class="grid3 grid--5-cols">
+           
+        
+<!-- start -->
+        <div class="single-info-container">
+            <div class="top-info">
+            <img src="./img/image 45.png" alt="massage" />
+            <h4>Megan K.</h4>
+            <div class="top-info-div">
+            <img class="check-buyer" src="./img/Vector.png" alt="check-mark" />
+            <p>VERIFIED BUYER</p>
+        </div>
+        <div class="section3-starss">
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+            <img src="./img/Star 2.png" alt="star"/>
+        </div>
+        </div>
+        <div class="description">
+            I love the MagicMassage! It’s simple to use, does not mess up my curly hair as many other similar products do, and the massage is relaxing as it is refreshing. I feel like it has been made for my scalp! It just feels right.
+        </div>
+        </div>
+
+        <div class="single-info-container">
+            <div class="top-info">
+            <img src="./img/image 51.png" alt="massage" />
+            <h4>Megan K.</h4>
+            <div class="top-info-div">
+                <img class="check-buyer" src="./img/Vector.png" alt="check-mark" />
+                <p>VERIFIED BUYER</p>
+            </div>
+            <div class="section3-starss">
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+            </div>
+        </div>
+        <div class="description">
+            I could not be happier with this product! I use it at night to relax and it does wonders for me. My kids and dog also love it, they’ll sit and let me massage their scalp for hours. At first my Labrador was hesitant not knowing what it was, but now she gets excited as soon as I take the MagicMassage out.
+        </div>
+        </div>
+
+        <div class="single-info-container">
+            <div class="top-info">
+            <img src="./img/image 52.png" alt="massage" />
+            <h4>Megan K.</h4>
+            <div class="top-info-div">
+                <img class="check-buyer" src="./img/Vector.png" alt="check-mark" />
+                <p>VERIFIED BUYER</p>
+            </div>
+            <div class="section3-starss">
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+            </div>
+        </div>
+        <div class="description">
+            It arrived in perfect condition, and the packaging was immaculate. It felt amazing on my head, like someone was massaging it with the perfect pressure and speed. My long hair doesn't get caught in it at all, and I feel relaxed after using it. Best purchase I’ve made in a LONG time!
+        </div>
+        </div>  
+
+        <div class="single-info-container">
+            <div class="top-info">
+            <img src="./img/image 53.png" alt="massage" />
+            <h4>Megan K.</h4>
+            <div class="top-info-div">
+                <img class="check-buyer" src="./img/Vector.png" alt="check-mark" />
+                <p>VERIFIED BUYER</p>
+            </div>
+            <div class="section3-starss">
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+                <img src="./img/Star 2.png" alt="star"/>
+            </div>
+        </div>
+        <div class="description">
+            I could not love this massager more. I use it for scalp stimulation during showers as it feels great to massage with shampoo. I love that it's light enough to carry it with me when I travel and comfortable to use. The product looks luxurious and would recommend this to anyone looking for a high quality head massager.
+        </div>
+        </div>
+       
+</div>
+</section>
+
+<section class="section-4">
+    <div class="faq-container">
+        <div class="faqs">
+        <div class="faq-title">
+            <h1>Frequently Asked <span class="questions"> Questions</span></h1>
+            <img src="./img/Vector 198 (Stroke).png" alt="line" />
+        </div>
+
+        <div class="grid4 grid--2-cols">
+            <div class="faq-img">
+                <!-- <img src="./img/image 45.png" alt="massage" /> -->
+            </div>
+            <div class="faq">
+
+                <div class="faq1">
+                <div class="question">
+                    <h3> How long does the battery last fully charged?</h3>
+                    <img src="./img/Vector (2).svg" alt="arrow-down" />
+                    <div class="answer active">
+                        <p>The MagicMassage™ can last up to 6 hours when it's fully charged.</p>
+                    </div>
+                </div>
+            </div>
+               
+                <div class="faq1">
+                <div class="question">
+                    <h3> Can I use it in the shower?</h3>
+                    <img src="./img/Vector (2).svg" alt="arrow-down" />
+                    <div class="answer active">
+                        <p>The MagicMassage™ can last up to 6 hours when it's fully charged.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="faq1">
+                <div class="question">
+                    <h3> What is included in the package</h3>
+                    <img src="./img/Vector (2).svg" alt="arrow-down" />
+                    <div class="answer active">
+                        <p>The MagicMassage™ can last up to 6 hours when it's fully charged.</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="faq1">
+                <div class="question">
+                    <h3>Is the MagicMassage™ designed only for the head?</h3>
+                    <img src="./img/Vector (2).svg" alt="arrow-down" />
+                    <div class="answer active">
+                        <p>The MagicMassage™ can last up to 6 hours when it's fully charged.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-faq">
+                <div class="all-faq1">
+                <h6>See All FAQ</h6>
+                <img src="./img/Vector (10).png" alt="arrow-down" />
+            </div>
+            </div>
+        </div>
+     
+        </div>
+    </div>
+    </div>
+</section>  
+<script src="./js/index.js"></script>
 </body>
 </html>

@@ -113,23 +113,6 @@ margin-top: 1.5%;
     margin-left: 75%;
 }
 
-.button-mobile-nav{
-    border: none;
-    background: none;
-    cursor: pointer;
-    display: none;
-}
-
-.icon-mobile-nav{
-    height: 4.8rem;
-    width: 4.8rem;
-    color: #213786;
-}
-
-.icon-mobile-nav[name="close-outline"]{
-    display: none;
-}
-
 /*  End of the header menu */
 
 /* Sticky navigation */
@@ -184,6 +167,11 @@ font-size: 20px;
 line-height: 28px;
 margin-left: 92px;
 margin-top: 15px;
+font-size: 18px;
+}
+
+.heading-description span{
+    display: none;
 }
 
 .machine{
@@ -211,7 +199,6 @@ margin-top: 15px;
     background: rgba(174, 204, 255, 0.1);
     border: 1px solid rgba(174, 204, 255, 0.5);
     border-radius: 10px; 
-
 }
 
 .grid{
@@ -420,6 +407,10 @@ backdrop-filter: blur(4px);
     padding: 24px 12px;
 }
 
+.offers-mobile{
+    display: none;
+}
+
 .span-icon{
     width: 50px;
     height: 50px;
@@ -430,12 +421,28 @@ backdrop-filter: blur(4px);
 }
 
 .offer-icon{
+  
     position: absolute;
     top:20%;
     left: 20%;
  width: 33px;
  height: 27.5px;
  
+}
+
+.offer-icons-star{
+
+    position: absolute;
+    top: 17%;
+    left: 12%;
+    width: 33px;
+    height: 32.5px;
+    
+}
+
+.offer-icons-star{
+    width: 37px;
+    height: 37px;
 }
 
 .offer h2{
@@ -496,25 +503,37 @@ backdrop-filter: blur(4px);
 
 .grid2{
     display: grid;
-    /* column-gap: 2.2rem; */
-    /* row-gap: 1.5rem; */
 }
 
 
 .grid--3-cols{
-    grid-template-columns: repeat(3,0.3fr);
+    grid-template-columns: repeat(3,0.2fr);
 }
 
 .offer-to-buy{
     width: 368px;
-    height: 530px;
+
     margin-top: 13%;
-    margin-left: 23%;
-    opacity: 0.7;
-    border: 1.5px solid #197AFF;
+    margin-left: 30%;
     border-radius: 18px;
+    border: 1.5px solid #197AFF;
+}
+
+.offer-to-buy1{
+    height: 530px;
+    opacity: 0.7;
     background: #F6F8FC;
 }
+
+.offer-to-buy2{
+height: 530px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
+/* Blue Primary */
+border: 1.5px solid #197AFF;
+border-radius: 18px;
+}
+
 
 .machine-img{
     width: 133px;
@@ -523,6 +542,21 @@ backdrop-filter: blur(4px);
     margin-top: -5%;
 }
 
+.machine1-img{
+    width: 133px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: -5%;
+    opacity: 1;
+}
+
+.machine2-img{
+    width: 216px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: -6%;
+
+}
 .offer-title{
     display: flex;
     justify-content: center;
@@ -651,3 +685,336 @@ color:  #FFFFFF;
     margin-left: 8%;
     margin-top: 7%;
 }
+
+/* End section */
+
+/* Start section */
+.grid3{
+    display: grid;
+      column-gap: 2.2rem;
+    row-gap: 1.5rem;
+}
+
+.grid--5-cols{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.section3-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 722px;
+    background: #F6F8FC;
+}
+
+.single-info-container{
+    width: 285px;
+    height: 472px;
+    background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 10px;
+margin-top: 40%;
+margin-left: -10%;
+}
+
+.section3-title-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.section3-title{
+    width: 682px;
+    height: 50px;
+    font-style: normal;
+    font-size: 37px;
+    line-height: 48.8px;
+    font-weight: 600;
+    color: #11346F;  
+}
+
+.section3-stars{
+    position: absolute;
+   margin-top: 5%;
+   margin-left: -73%;
+}
+
+.section3-stars img{
+    width: 17.37px;
+    height: 17.37px;
+    color: #F6C644;
+    font-weight: bold;
+    position: relative;
+}
+
+.total-reviews{
+    width: 230px;
+    height: 19px;
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #11346F;
+    position: absolute;
+   
+}
+
+.blue-color{
+    width: 682px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48.8px;
+    color: #197AFF;
+    position: relative;
+}
+
+.blue-line{
+    width: 226px;
+    height: 6px;
+    color:  #197AFF;
+   position: absolute;
+   top: 120%;
+   left: -10%;
+}
+
+.top-info h4{
+    width: 67px;
+    height: 19px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #11346F;
+    margin-top: 2%;
+    margin-left: 6%;
+    position: relative;
+}
+
+.section3-starss{
+    margin-left: 6%;
+}
+.section3-starss img{
+    width: 14px;
+    height: 14px;
+    color: #F6C344;
+    margin-top: 5%;
+}
+
+.top-info-div{
+    display: flex;
+    justify-content: center;
+}
+
+.top-info-div p{
+    font-size: 11px;
+    margin-top: -5%;
+    margin-left: 2%;
+    height: 15px;
+    font-weight: 800;
+    text-align: center;
+    color: #89C25F;
+    
+}
+
+.check-buyer{
+    width: 17.5px;
+    height: 17.5px;
+    color: #89C25F;
+    margin-left: 35%;
+    margin-top: -6.5%;
+}
+
+.description{
+    width: 250px;
+    height: 226px;
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 26px;
+    color: #262626;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+/* end of the section-3 */
+
+
+/* start of the section-4 */
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 616px;
+    background-color:  #11346F;
+}
+
+.faq-title{
+    display: flex;
+    justify-content: center;
+}
+
+.faq-title h1{
+    position: relative;
+    width: 544px;
+    height: 50px;
+    font-family: "Mont";
+    font-style: normal;
+    font-size: 37px;
+    line-height: 49px;
+    margin-top: 2%;
+    color: #FFFFFF;    ;
+}
+
+.faq-title img{
+    position: absolute;
+    width: 226px;
+    height: 6px;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.faq-img{
+    width: 476px;
+    height: 398px;
+    border-radius: 10px;
+    background: url(./img/Rectangle\ 1662.png);
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.questions{
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.grid4{
+    display: grid;
+    column-gap: 2.2rem;
+    row-gap: 1.5rem;
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.faq{
+    width: 652px;
+    height: 59px;
+    margin-left: -15%;
+    margin-top: 10%;
+    border: 1px solid #31548E;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.question{
+background-color: #194081;
+height:59px;
+position: relative;
+margin-bottom: 4%;
+border-radius: 9px;
+border: 1px solid #31548E;
+}
+
+.question h3{
+    font-family: "Mont";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+}
+
+.question img{
+    width: 15.84px;
+    height: 7.1px;
+    font-size: 16px;
+    margin-left: 90%;
+    margin-top: 4%;
+}
+
+
+
+.answer{
+    width: 652px;
+    height: 70px;
+    background-color: #11346F;
+    border: 1px solid #31548E;
+border-radius: 9px;
+margin-bottom: 3%;
+opacity: 0;
+}
+
+.active .answer{
+    max-height: 300px;
+    opacity: 1;
+    transition: all 1.3s ease;
+    margin-top: 3%;
+}
+
+
+
+
+.faq1.active img{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in;
+
+}
+
+.faq1.active{
+    height: 126px;
+    margin-bottom: 4%;
+}
+
+
+
+
+.answer p{
+    font-family: "Mont";
+font-style: normal;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+color: #AECCFF;
+    margin-top: 4%;
+    margin-left: 4.5%;
+}
+
+.all-faq{
+    display: flex;
+    justify-content: center;
+}
+
+.all-faq1{
+    width: 130px;
+    height: 40px;
+    margin-top: 3.5%;
+    margin-left: -75%;
+}
+
+
+.all-faq1 h6{
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F6F8FC;
+    position: absolute;
+}
+
+.all-faq1 img{
+    width: 13px;
+    height: 6px;
+    color: white;
+    font-weight: bold;
+    margin-left: 70%;
+   margin-top: 5%;
+}
+
