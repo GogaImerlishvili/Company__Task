@@ -168,6 +168,108 @@
             gap: 0.5px  
         }
 
+        .grid--5-cols{
+     grid-template-columns: repeat(2,1fr);
+     overflow: hidden;
+        }
+
+        .section3-container{
+            width:100%;
+            height: 717px;
+            background: #F6F8FC;
+        }
+
+        .section3-title-div{
+            display: flex;
+            justify-content: center;
+            height: 81px;
+        }
+
+        .section3-title{
+            font-family: "Mont";
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39.57px;
+            align-items: center;
+            text-align: center;
+            color: #11346F;
+        }
+
+        .blue-color{
+            font-size: 30px;
+        }
+
+        .blue-line{
+            width: 165px;
+        }
+     
+    
+        .section3-stars{
+            display: flex;
+            justify-content: center;
+            margin-left: -52%;
+            margin-top: 15%;
+        }
+
+        .section3-single-star{
+            margin-left: -75%;
+        }
+
+        .total-reviews{
+            margin-top: 30%;
+            margin-left: -155%;
+        }
+
+        .dot-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-left: 50%;
+            margin-top: -15%;
+        }
+
+        .dot:first-child{
+            width: 14px;
+            height: 14px;
+            background: #197AFF;
+            border-radius: 50%;
+        }
+
+        .dot{
+            display: flex;
+            margin: 0 5px;
+            width: 14px;
+            height: 14px;
+            background: #CBCED6;
+            border-radius: 50%;
+        }
+
+        .single-mob{
+            display: none;
+        }
+
+/* 
+        .reviews-button button{
+            width: 133px;
+            height: 40px;
+            background: #F6F8FC;
+            border: 1px solid #213786;
+            border-radius: 5px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #11346F;
+        } */
+
+        .single-info-container{
+            margin-left:3%;
+        }
+
+   
+
         .get-button{
             display: flex;
             justify-content: center;
@@ -252,11 +354,20 @@ margin-top: -53%;
       }
 
       .grid{
-        display: grid;
+        display: none;
       }
 
     .grid--3-cols{
-        grid-template-columns: 1fr;
+        display: none;
+    }
+
+    .grid-mobile{
+       display: grid;
+     
+    }
+
+    .grid--3-cols-mobile{
+          grid-template-columns: 1fr;
     }
 
     .title-container{
@@ -299,8 +410,6 @@ margin-top: -53%;
     }
 
     .offer-to-buy{
-        width: 378px;
-        height: 468px;
         margin-left: 18px;
         margin-top: 25%;
 background: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
@@ -308,6 +417,169 @@ background: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
 
 border: 1.5px solid #197AFF;
 border-radius: 18px;
-margin-bottom: -30%;
+margin-bottom: -20%;
     }
+
+    .offer-to-buy1{
+        width: 378px;
+        height: 468px;
+    }
+
+    .offer-to-buy2{
+        width: 378px;
+        height: 468px;
+    }
+
+
+  
+
+    .offer-title{
+    font-size: 24px;
+    
+    }
+
+    .offer2-title{
+        font-size: 24px;
+    
+    }
+    .offer2-price-left,
+    .offer2-price-right{
+        font-size: 25px;
+    }
+
+    .interest2-free{
+        margin-top: -10%;
+        margin-bottom: 4%;
+    }
+
+    .interest2-free h3{
+        font-size: 11px;
+        margin-left: 12%;
+    }
+
+    .offer-button-container{
+       margin: 0 auto;
+        margin-top: -3%;
+    }
+
+    .offer2-button{
+        width: 353px;
+        margin-left: 9.5px;
+    }
+
+    .payements-container{
+        margin-top: -0.05%;
+    }
+    .payements{
+        margin-top: 3%;
+    }
+
+    .offer2-orders{
+        width: 353px;
+        margin: 0 auto;
+    }
+
+    .faq-container{
+        width: 100%;
+        height: 1210px;
+    }
+
+    .faqs{
+        width: 100%;
+        height: 784px;
+    }
+
+    .faq-title{
+        display: flex;
+        justify-content: center;
+        width: 260px;
+        height: 96px;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .faq-title h1{
+        font-family: "Mont";
+        font-weight: 700;
+        font-size: 30px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .faq-title img{
+        margin-left: -2%;
+        margin-top: 25%;
+    }
+
+    .faq-img{
+        width: 374px;
+        height: 194px;
+        border-radius: 10px;
+    }
+    .questions{
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 50%;
+        margin-left: 25%;
+    }
+
+    .grid--2-cols{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .faq{
+        width: 378px;
+        border: 1px solid #31548E;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .faq1{
+        margin-left: 20%;
+        width: 378px;
+        height: 59px;
+        margin-bottom:10%;
+    }
+    
+    .question{
+        display: flex;
+        margin-bottom: 15%;
+    }
+.question h3{
+    font-family: "Mont";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+} 
+
+
+.answer {
+    width: 378px;
+    height: 59px;
+    background-color: #11346F;
+    border: 1px solid #31548E;
+border-radius: 9px;
+opacity: 0;
+}
+
+.active .answer{
+    margin-left: -95%;
+    margin-top: 15%;
+}
+.active .answer p{
+    width: 378px;
+    opacity: 1;
+    transition: all 1.3s ease;
+    margin-top: 3%;
+    margin-left: -0.3%;
+}
+
+.all-faq1{
+    margin-left: 45%;
+}
+
 }

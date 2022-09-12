@@ -154,8 +154,16 @@ margin-top: 1.5%;
 }
 
 .stroke{
-    display: inline-table;
-    margin-left: 1%;
+    display:flex;
+    justify-content:flex-start;
+    margin-left: 100%;
+    margin-top: -7%;
+}
+
+.blue-line1{
+    width: 171px;
+    height: 6px;
+    margin-left: 58%;
 }
 
 .heading-description{
@@ -510,6 +518,14 @@ backdrop-filter: blur(4px);
     grid-template-columns: repeat(3,0.2fr);
 }
 
+.grid-mobile{
+    display: none;
+}
+
+/* .grid--3-cols-mobile{
+    display: none;
+} */
+
 .offer-to-buy{
     width: 368px;
 
@@ -523,6 +539,7 @@ backdrop-filter: blur(4px);
     height: 530px;
     opacity: 0.7;
     background: #F6F8FC;
+    border-radius: 18px;
 }
 
 .offer-to-buy2{
@@ -577,6 +594,34 @@ color: #197AFF;
   
 }
 
+.offer3-tag{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 18%;
+}
+
+.offer3-tag h4{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 28px;
+    background-color: #AC5780;
+border-radius: 50px;
+text-align: center;
+align-items: center;
+color: white;
+margin-top: 1%;
+}
+
+.offer3-tag img{
+    width: 47.49px;
+    height: 65.17px;
+   color: #197AFF;
+margin-top: -8%;
+margin-left: 4%;
+}
+
 .offer2-tag h4{
     display: flex;
     justify-content: center;
@@ -586,7 +631,7 @@ color: #197AFF;
 border-radius: 50px;
 text-align: center;
 align-items: center;
-
+color: white;
 }
 
 .offer2-tag img{
@@ -678,6 +723,7 @@ margin-left: 4%;
     font-size: 13px;
     line-height: 16px;
     color: #11346F;
+    margin-top: -3%;
 }
 
 .free2-shipping{
@@ -689,7 +735,7 @@ margin-left: 4%;
     font-size: 13px;
     line-height: 16px;
     color: #11346F;
-    margin-top: 53%;
+    margin-top: 45%;
     margin-left: -245%;
 
 }
@@ -711,13 +757,12 @@ margin-left: 4%;
     font-size: 12px;
     line-height: 15px;
     color: #11346F;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 .money-back img{
     width: 23px;
     height: 23px;   
-    border:1px solid #197AFF;
 }
 
 .interest-free{
@@ -759,11 +804,10 @@ border-radius: 18px;
 }
 
 .offer2-order{
-    /* width: 100%; */
     display: flex;
-
-   
 }
+
+
 
 .offer2-save{
     display: flex;
@@ -828,6 +872,21 @@ margin-left: 4%;
     margin-left: 23%;
     margin-top: 3%;
 }
+
+.offer3-orders-price{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.offer3-orders-price h4{
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 17px;
+    color: #11346F;
+    padding: 0 8px;
+}
 .interest-free h3{
     width: 257px;
     height: 16px;
@@ -836,7 +895,7 @@ margin-left: 4%;
     font-weight: 700;
     line-height: 16px;
     text-transform: capitalize;
-    margin-top: 8%;
+    margin-top: 13%;
     margin-left: 6%;
     color: #11346F;
 
@@ -862,8 +921,8 @@ margin-left: 4%;
     background: #BCF5E3;
     text-align: center;
     align-items: center;
-    margin-left: 75%;
-    margin-top: -4.3%;
+    margin-left: 78%;
+    margin-top: -4.5%;
 }
 
 .offer-button{
@@ -879,6 +938,23 @@ text-align: center;
 color:  #FFFFFF;
     margin-top: 12%;
     margin-left: 4%;
+    cursor: pointer;
+}
+
+.offer2-button{
+    width: 331px;
+    height: 53px;
+    border-radius: 60px;
+    background: #197AFF;
+box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+font-size: 18px;
+font-weight: 800;
+line-height: 24px;
+text-align: center;
+color:  #FFFFFF;
+    margin-top: 6%;
+    margin-left: 4%;
+    cursor: pointer;
 }
 
 .payements-container{
@@ -900,6 +976,8 @@ color:  #FFFFFF;
     grid-template-columns: repeat(4,1fr);
 }
 
+
+
 .section3-container{
     display: flex;
     justify-content: center;
@@ -907,6 +985,8 @@ color:  #FFFFFF;
     height: 722px;
     background: #F6F8FC;
 }
+
+
 
 .single-info-container{
     width: 285px;
@@ -959,7 +1039,26 @@ margin-left: -10%;
     text-align: center;
     color: #11346F;
     position: absolute;
-   
+
+}
+
+.dot-container{
+    display: none;
+}
+
+.reviews-button{
+    position: absolute;
+    left: 1100%;
+    top: -10%;
+}
+
+.reviews-button button{
+    width: 133px;
+    height: 30px;
+background: #F6F8FC;
+border: 1px solid #213786;
+border-radius: 5px;
+cursor: pointer;
 }
 
 .blue-color{
@@ -1219,3 +1318,18 @@ color: #AECCFF;
    margin-top: 5%;
 }
 
+
+/* Sticky navigation */
+
+.sticky .header{
+    position:fixed;
+    top: 0;
+    bottom:0;
+    width: 1440px;
+    height: 67px;
+    padding-top: 0 ;
+    padding-bottom: 0;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0,0,0,0.3);
+}
